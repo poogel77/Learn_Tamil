@@ -22,6 +22,13 @@ POOGELENTHIRAN SHUNMUGAM
 	<preference name="disallowOverscroll" value="true" />
 	<preference name="exit-on-suspend" value="false" />
 	<preference name="prerendered-icon" value="false" />
+	
+	<icon src="res/icon/android/icon-36-ldpi" gap:platform="android" gap:density="ldpi" />
+	<icon src="res/icon/android/icon-48-mdpi" gap:platform="android" gap:density="mdpi" />
+	<icon src="res/icon/android/icon-72-hdpi" gap:platform="android" gap:density="hdpi" />
+	<icon src="res/icon/android/icon-96-xhdpi" gap:platform="android" gap:density="xdpi" />
+	<icon src="res/icon/android/icon-144-xxhdpi" gap:platform="android" gap:density="xxdpi" />
+	
 	<icon src="res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
 	<icon src="res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
 	<icon src="res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
