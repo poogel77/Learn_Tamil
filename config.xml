@@ -33,13 +33,15 @@ POOGELENTHIRAN SHUNMUGAM
 	<preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
 	<preference name="SplashScreen" value="screen" />
 	<preference name="SplashScreenDelay" value="5000" />
-		
-	<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
-	<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
-	<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
-	<icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xdpi" />
-	<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxdpi" />
 	
+	<platform name="android">
+              <icon src="res/android/ldpi.png" density="ldpi" />
+              <icon src="res/android/mdpi.png" density="mdpi" />
+              <icon src="res/android/hdpi.png" density="hdpi" />
+              <icon src="res/android/xhdpi.png" density="xhdpi" />
+     </platform>
+	
+		
 	<icon src="res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
 	<icon src="res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
 	<icon src="res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
