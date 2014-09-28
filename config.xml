@@ -11,6 +11,7 @@ Tamil Ilakkiyam</description>
 email="poogel77@yahoo.com">
 POOGELENTHIRAN SHUNMUGAM
 </author>
+<icon src="icon.png" />	
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 	<gap:platform name="winphone" />
