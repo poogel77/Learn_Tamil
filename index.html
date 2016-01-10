@@ -45,7 +45,7 @@ td .ui-btn-inner { padding: .4em 15px; }
 	<script src="js/app.js"></script>
 	<script src="phonegap.js"></script>
 	<script src="barcodescanner.js"></script>
-
+	<script type="text/javascript" src="cordova.js"></script>
 </head>
 	
 <body>
@@ -2184,6 +2184,16 @@ td .ui-btn-inner { padding: .4em 15px; }
 		Poogelenthiran Shunmugam,8, Lorong Tembusu 4, Sungai Puyu,Butterworth, Penang. H/P number :017-4133615</p>
 	</div>
 </div>
+<script src="js/admob_simple.js"></script>
+<script>
+	var gaPlugin;
+
+function onDeviceReady() {
+    gaPlugin = window.plugins.gaPlugin;
+    gaPlugin.init(successHandler, errorHandler, "UA-71404430-4", 10);
+}
+	</script>
+
 	<!--
 	Admission
 	Directions
