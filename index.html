@@ -2185,9 +2185,14 @@ td .ui-btn-inner { padding: .4em 15px; }
 		Poogelenthiran Shunmugam,8, Lorong Tembusu 4, Sungai Puyu,Butterworth, Penang. H/P number :017-4133615</p>
 	</div>
 </div>
+	<script>
+var gaPlugin;
 
-
-
+function onDeviceReady() {
+    gaPlugin = window.plugins.gaPlugin;
+    gaPlugin.init(successHandler, errorHandler, "UA-71404430-4", 10);
+}
+	</script>
 	<!--
 	Admission
 	Directions
