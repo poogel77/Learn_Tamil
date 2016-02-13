@@ -2,8 +2,8 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id        = "com.yahoo.poogel77"
-	versionCode="2"
-	version   = "1.0.1">
+	versionCode="3"
+	version   = "1.0.2">
 <name>Learn Tamil</name>
 <description>
 Tamil Ilakkiyam</description>
@@ -15,7 +15,7 @@ POOGELENTHIRAN SHUNMUGAM
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 	<gap:platform name="winphone" />
-	<preference name="phonegap-version" value="3.5.0" />
+	<preference name="phonegap-version" value="cli-6.0.0" />
 	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="false" />
 	<preference name="webviewbounce" value="false" />
