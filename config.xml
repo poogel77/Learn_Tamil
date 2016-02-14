@@ -63,8 +63,8 @@ POOGELENTHIRAN SHUNMUGAM
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<gap:plugin name="com.adobe.plugins.gaplugin" />
-	<plugin name="cordova-plugin-admob" spec="n/a" />
- 
+	<gap:plugin name="cordova-plugin-admob" source="npm" />
+    <dependency id="cordova-plugin-googleplayservices"/>
 	<!--<gap:plugin name="org.apache.cordova.camera"  />
 	<gap:plugin name="org.apache.cordova.geolocation"  />
 	<gap:plugin name="org.apache.cordova.dialogs"  />
