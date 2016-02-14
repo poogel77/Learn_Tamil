@@ -15,7 +15,7 @@ POOGELENTHIRAN SHUNMUGAM
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 	<gap:platform name="winphone" />
-	<preference name="phonegap-version" value="cli-6.0.0" />
+	<preference name="phonegap-version" value="cli-5.2.0" /> 
 	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="false" />
 	<preference name="webviewbounce" value="false" />
@@ -23,7 +23,7 @@ POOGELENTHIRAN SHUNMUGAM
 	<preference name="disallowOverscroll" value="true" />
 	<preference name="exit-on-suspend" value="false" />
 	<preference name="prerendered-icon" value="false" />
-	<preference name="android-build-tool" value="gradle" /> 
+	 
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<gap:splash src="res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
