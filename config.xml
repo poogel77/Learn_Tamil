@@ -23,7 +23,7 @@ POOGELENTHIRAN SHUNMUGAM
 	<preference name="disallowOverscroll" value="true" />
 	<preference name="exit-on-suspend" value="false" />
 	<preference name="prerendered-icon" value="false" />
-	
+	<preference name="android-build-tool" value="gradle" /> 
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<gap:splash src="res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
