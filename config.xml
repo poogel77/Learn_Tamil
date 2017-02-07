@@ -15,7 +15,7 @@ POOGELENTHIRAN SHUNMUGAM
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 	<gap:platform name="winphone" />
-	<preference name="phonegap-version" value="cli-6.0.0" />
+	<preference name="phonegap-version" value="cli-6.5.0" />
 	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="false" />
 	<preference name="webviewbounce" value="false" />
@@ -23,8 +23,14 @@ POOGELENTHIRAN SHUNMUGAM
 	<preference name="disallowOverscroll" value="true" />
 	<preference name="exit-on-suspend" value="false" />
 	<preference name="prerendered-icon" value="false" />
-	 
-	<gap:plugin name="org.apache.cordova.splashscreen" />
+	 <!--
+        If you do not want any permissions to be added to your app, add the
+        following tag to your config.xml; you will still have the INTERNET
+        permission on your app, which PhoneGap requires.
+    -->
+    <preference name="permissions"  value="none"/>
+	
+	<gap:plugin name="cordova-plugin-splashscreen" spec="4.0.1" source="npm"/>
 	<gap:splash src="res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
 	<gap:splash src="res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi"  />
@@ -58,11 +64,8 @@ POOGELENTHIRAN SHUNMUGAM
 	<gap:splash src="res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768" />
 	<gap:splash src="res/screen/ios/screen-ipad-portrait-2x.png" gap:platform="ios" width="1536" height="2008" />
 	<gap:splash src="res/screen/ios/screen-ipad-landscape-2x.png" gap:platform="ios" width="2048" height="1496" />
-	<feature name="http://api.phonegap.com/1.0/camera"/>
-	<feature name="http://api.phonegap.com/1.0/file"/>
-	<feature name="http://api.phonegap.com/1.0/geolocation"/>
-	<feature name="http://api.phonegap.com/1.0/network"/>
-	<gap:plugin name="com.adobe.plugins.gaplugin" />
+
+	
 	<preference name="android-build-tool" value="gradle" /> 
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
     <framework src="com.google.android.gms:play-services-ads:+" />
